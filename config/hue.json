@@ -1,0 +1,8 @@
+{
+    "bridge":"192.168.1.2",
+    "username":"a3VxECysnh5P5Hn5bxbF9y5dCdJawRzFuyDDD7VG",
+    "lights":{
+        "1":7,
+        "2":9
+    }
+}

@@ -1,0 +1,5 @@
+config file link:
+const config = require("../config.json");
+
+verbose command operator:
+if (config.verbosecommands == "true") {console.log("[what command does] to @" + message.author.username + " at " + message.createdAt)};

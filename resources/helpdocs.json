@@ -1,0 +1,200 @@
+{
+	"help":{
+		"name":"help",
+		"text":"Will present you with a list of short descriptions for other SoySource commands. You can add a particular command to recieve extended information about that command.",
+		"examplein":"ping",
+		"exampleout":"[info about the ping command]"
+	},
+	"avatar":{
+		"name":"avatar",
+		"text":"Sends the URL of the requester's avatar/profile picture.",
+		"examplein":"",
+		"exampleout":"https://cdn.discordapp.com/attachments/462821474206482434/464150611865108480/ae618917c745100601b4e124a9358e21.pngsize2048"
+	},
+	"ctof":{
+		"name":"ctof",
+		"text":"Converts celsius to fahrenheit. Takes degrees celsius as input.",
+		"examplein":"15",
+		"exampleout":"15°C to fahrenheit: 59°F"
+	},
+	"ftoc":{
+		"name":"ftoc",
+		"text":"Converts fahrenheit to celsius. Takes degrees fahrenheit as input.",
+		"examplein":"45",
+		"exampleout":"45°F to celsius: 7.22°C"
+	},
+	"info":{
+		"name":"info",
+		"text":"Gives (current) info about the bot.",
+		"examplein":"",
+		"exampleout":"[SoySource info]"
+	},
+	"kick":{
+		"name":"kick",
+		"text":"(WIP) Kicks the user given as input.",
+		"examplein":"@yogsoy",
+		"exampleout":"Kicked @yogsoy"
+	},
+	"lent":{
+		"name":"lent",
+		"text":"Makes a *super* funny meme",
+		"examplein":"",
+		"exampleout":"[a meme]"
+	},
+	"light":{
+		"name":"light",
+		"text":"This command is only usable by the owner of this bot.",
+		"examplein":"1",
+		"exampleout":"Toggled desk light."
+	},
+	"ping":{
+		"name":"ping",
+		"text":"Returns the bot (ping) delay in milliseconds.",
+		"examplein":"",
+		"exampleout":"You've been panged! 230ms"
+	},
+	"time":{
+		"name":"time",
+		"text":"Sends back the times for different regions and timezones in the user's preferred time format (24 hour time by default). Can be used with or without arguments.",
+		"examplein":"london",
+		"exampleout":"UTC+1 (United Kingdom) Time: 21:04:38"
+	},
+	"eval":{
+		"name":"eval",
+		"text":"This command is only usable by the owner of this bot.",
+		"examplein":"console.log(config.version);",
+		"exampleout":"[eval success embed]"
+	},
+	"curcon":{
+		"name":"curcon",
+		"text":"(WIP) Converts currency from one to another. Takes arguments in the form of `[amount] [from] [to]`",
+		"examplein":"200 php aud",
+		"exampleout":"200 PHP = ~50.06 AUD"
+	},
+	"osu":{
+		"name":"osu",
+		"text":"Gives a short summary of the mentioned osu! account.",
+		"examplein":"peppy",
+		"exampleout":"osu! Profile for peppy (#297280) - AU\nTotal PP: 762.78\n...\nOverall Acc: 96.67%"
+	},
+	"osur":{
+		"name":"osur",
+		"text":"Gives information about the last osu! standard play by the mentioned osu! user.",
+		"examplein":"Fikstorm",
+		"exampleout":"Most recent ranked play for Fikstorm:\nMods: HDHR\nStar Rating: 8.62*\n...\nCompletion: 99.24%"
+	},
+	"osub":{
+		"name":"osub",
+		"text":"Gives best osu! standard plays for a given user.",
+		"examplein":"peppy",
+		"exampleout":"Top 5 osu! standard plays for peppy\n1. Lix - Tori no Uta (...)"
+	},
+	"aesthetic":{
+		"name":"aesthetic",
+		"text":"This command is supposed to convert the text you give as an argument into  a e s t h e t i c i s e d  text, but I haven't programmed that yet.",
+		"examplein":"dickbutt",
+		"exampleout":"d i c k b u t t"
+	},
+	"log":{
+		"name":"log",
+		"text":"Logs the given arguments to the developer console.",
+		"examplein":"Hello future people!",
+		"exampleout":"Logged Hello future people! to console"
+	},
+	"rng":{
+		"name":"rng",
+		"text":"Generates a random number between 1 and 10.",
+		"examplein":"",
+		"exampleout":"Random number (0-10): 4"
+	},
+	"exec":{
+		"name":"exec",
+		"text":"This command is only usable by the owner of this bot.",
+		"examplein":"ls",
+		"exampleout":"[a bunch of files]"
+	},
+	"configchange":{
+		"name":"configchange",
+		"text":"This command is only usable by the owner of this bot.",
+		"examplein":"version 4.2.3",
+		"exmapleout":"Changed the config file object `version` to `4.2.3`"
+	},
+	"restart":{
+		"name":"restart",
+		"text":"This command is only usable by the owner of this bot.",
+		"examplein":"",
+		"exampleout":"Restarting..."
+	},
+	"define":{
+		"name":"define",
+		"text":"Define a given word using *Webster's Unabridged English Dictionary*. Note that the version of the dictionary used is not complete.",
+		"examplein":"click",
+		"exampleout":"**click**\nTo make a slight, sharp noise (or a succession of such noises),as by gentle striking; to tick.The varnished clock that clicked behind the door. Goldsmith."
+	},
+	"play":{
+		"name":"play",
+		"text":"Play audio for a video from YouTube in a voice channel. Requesting user must be in a voice channel accessible by the bot.",
+		"examplein":"https://www.youtube.com/watch?v=2CL-AAcgyuo",
+		"exampleout":"yOu'D bEtTeR bE gEtTiNg In A vOiCe ChAnNeL"
+	},
+	"leave":{
+		"name":"leave",
+		"text":"Leaves a voice channel, if the bot is in one.",
+		"examplein":"",
+		"exampleout":"I'm not in a voice channel, silly!"
+	},
+	"emoji":{
+		"name":"emoji",
+		"text":"Turns text into emojis.",
+		"examplein":"meme",
+		"exampleout":" :regional_indicator_m: :regional_indicator_e: :regional_indicator_m: :regional_indicator_e:"
+	},
+	"reverse":{
+		"name":"reverse",
+		"text":".egassem nevig a sesreveR",
+		"examplein":"peppy is a lower rank than me",
+		"exampleout":"em naht knar rewol a si yppep"
+	},
+	"picdump":{
+		"name":"picdump",
+		"text":"WIP - In theory, dumps the undeleted images of a channel into a file/folder",
+		"examplein":"",
+		"exampleout":"I mean really, I haven't even figured out what format the result is gonna be in. Maybe it'll shove the result in a folder on my web server? @mention SoySource to send suggestions for this"
+	},
+	"timereg":{
+		"name":"timereg",
+		"text":"Allows a user to register their preferred time format (24 or 12 hour time).",
+		"examplein":"12",
+		"exampleout":"Registered 12 hour time to your account."
+	},
+	"life":{
+		"name":"life",
+		"text":"Tells you *exactly* who doesn't have a life.\nCommand added at the explicit request of my lad Jack.",
+		"examplein":"",
+		"exampleout":"Jack doesn't have a life!"
+	},
+	"say":{
+		"name":"say",
+		"text":"Says a given message in the specified channel.\nI mainly made this command for someone on stackoverflow, it's pretty bad.",
+		"examplein":"#general hey guys, it's austin",
+		"exampleout":"hey guys, it's austin"
+	},
+	"patreon":{
+		"name":"patreon",
+		"text":"Sends a link to my patreon page.",
+		"examplein":"",
+		"exampleout":"My patreon page"
+	},
+	"spongebird":{
+		"name":"spongebird",
+		"text":"You know that one meme with spongebob as a bird that usually has text tHaT gOeS lIkE tHiS? Yeah, this command is that.",
+		"examplein":"maybe you should eat something",
+		"exampleout":"mAyBe yOu sHoUlD EaT SoMeThInG"
+	},
+	"tgp":{
+		"name":"tgp",
+		"text":"literally just sends the :tgp: emote from the TGP server because i needed to for some testing",
+		"examplein":"",
+		"exampleout":"<:tgp:374037209050775565>"
+	}
+}

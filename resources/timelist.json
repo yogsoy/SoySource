@@ -1,0 +1,32 @@
+{
+    "UTC+0":{
+        "UTC":0,
+        "places":["crewe","london","england","ireland","dublin"],
+        "short":"England"
+    },
+    "UTC+1":{
+	"UTC":1,
+	"places":["copenhagen","denmark"],
+	"short":"East Europe"
+    },
+    "UTC+2":{
+	"UTC":2,
+	"places":["south africa","cape town"],
+	"short":"South Africa"
+    },
+    "UTC+3":{
+        "UTC":3,
+        "places":["arabia","arabian peninsula","ast","qatar"],
+        "short":"Qatar, Saudi Arabia"
+    },
+    "UTC+8":{
+        "UTC":8,
+        "places":["manila","philippines","phillipines","mongolia","ulaanbaatar"],
+        "short":"Philippines, Mongolia"
+    },
+    "UTC+10":{
+	"UTC":10,
+	"places":["brisbane","qld","hobart","tasmania","syndey","nsw","new south wales"],
+        "short":"Brisbane,Sydney, Hobart"
+    }
+}
